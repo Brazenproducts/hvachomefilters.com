@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+:root{--sage:#E8F0E4;--wh:#FFFFFF;--dg:#1B4332;--lt:#4A7C59;--bg:#F5F9F3;--bdr:#D1E0CC}*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Raleway',sans-serif;background:var(--bg);color:#1A1A1A;line-height:1.8}
+h1,h2,h3{font-family:'Lora',serif;color:var(--dg)}.c{max-width:1100px;margin:0 auto;padding:0 20px}
+header{background:var(--dg);color:#fff;padding:16px 0}header h1{font-size:1.3rem}header span{color:#8FBC8F}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:6px}nav a{color:rgba(255,255,255,.7);text-decoration:none;font-size:.88rem}nav a:hover{color:#fff}
+.hero{background:linear-gradient(135deg,var(--dg),#2D5A3F);color:#fff;padding:60px 0;text-align:center}
+.hero h2{font-size:2.2rem;margin-bottom:10px}.hero p{opacity:.85;max-width:700px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;padding:20px 0}
+.card{background:var(--wh);border-radius:10px;padding:28px;box-shadow:0 1px 4px rgba(0,0,0,.05);border-top:3px solid var(--lt)}
+.card h3{margin-bottom:6px;font-size:1.15rem}.card a{color:var(--dg);text-decoration:none;font-weight:600}.card a:hover{text-decoration:underline}
+.card p{color:#555;font-size:.95rem}.badge{display:inline-block;background:var(--sage);color:var(--dg);padding:3px 10px;border-radius:20px;font-size:.75rem;font-weight:600;margin:3px 2px}
+.cta{display:inline-block;background:var(--dg);color:#fff;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:10px}.cta:hover{background:#0F3222}
+footer{background:var(--dg);color:rgba(255,255,255,.5);padding:28px 0;text-align:center;font-size:.85rem;margin-top:40px}footer a{color:#8FBC8F;text-decoration:none}
+img{max-width:100%;border-radius:8px}.sec{padding:36px 0}.sec h2{margin-bottom:18px}
+table{width:100%;border-collapse:collapse;margin:20px 0;background:#fff}th,td{padding:12px;text-align:left;border-bottom:1px solid var(--bdr)}
+th{background:var(--sage);color:var(--dg);font-weight:600}
+@media(max-width:700px){.hero h2{font-size:1.7rem}}
